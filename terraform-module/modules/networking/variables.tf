@@ -1,19 +1,20 @@
 variable "project" {
-  type = string
+  type    = string
 }
 
 variable "vpc_cidr" {
-  type = string
-}
-
-variable "public_subnets" {
-  type = list(string)
+  type    = string
 }
 
 variable "private_subnets" {
-  type = list(string)
+  type    = list(string)
+}
+
+variable "public_subnets" {
+  type    = list(string)
 }
 
 variable "database_subnets" {
-  type = list(string)
+  type    = list(string)
 }
+
